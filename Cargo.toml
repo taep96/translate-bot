@@ -1,0 +1,23 @@
+[package]
+name = "translate-bot"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.81"
+colored = "2.1.0"
+console-subscriber = "0.2.0"
+dashmap = "5.5.3"
+deepl = "0.6.2"
+fancy-duration = "0.9.2"
+figment = { version = "0.10.15", features = ["toml", "env"] }
+lazy_static = "1.4.0"
+num-format = "0.4.4"
+poise = "0.6.1"
+regex = "1.10.4"
+secrecy = "0.8.0"
+serde = "1.0.197"
+serenity = "0.12.1"
+terminal_hyperlink = "0.1.0"
+tokio = "1.37.0"
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
